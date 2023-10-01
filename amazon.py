@@ -43,7 +43,9 @@ def amazon_homepage(driver, logging):
 
         # Sleep time setup to see the webpage
         time.sleep(2)
+        logging.info("TEST PASSED")
     except Exception as e:
+        logging.error("TEST FAILED")
         logging.error(e)
         # print(f"Unexpected {e=}, {type(e)=}")
     finally:

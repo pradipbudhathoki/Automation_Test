@@ -48,7 +48,9 @@ def gmail_login(driver, logging):
 
         # Sleep time setup to see the webpage
         time.sleep(7)
+        logging.info("TEST PASSED")
     except Exception as e:
+        logging.error("TEST FAILED")
         logging.error(e)
     finally:
         # Quit the selenium driver

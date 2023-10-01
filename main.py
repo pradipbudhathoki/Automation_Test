@@ -18,5 +18,5 @@ driver = Chrome(options=options)
 
 if __name__ == '__main__':
     ### Run one function at a time ###
-    # amazon_homepage(driver, logging)
-    gmail_login(driver, logging)
+    amazon_homepage(driver, logging)
+    # gmail_login(driver, logging)

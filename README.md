@@ -26,16 +26,17 @@ This repository contains automated test scripts for two different functionalitie
    ```bash
    cd Automation_Test
    
-4. Install the required dependencies using pip:
 
-   ```bash
-   pip install -r requirements.txt
-   
-5. Activate the virtual environment for python
+4. Activate the virtual environment for python
 
    ```bash
    python3 -m venv env
    source env/bin/activate
+   
+5. Install the required dependencies using pip:
+
+   ```bash
+   pip install -r requirements.txt
 
 7. Configure the function on the main.py
    - For Amazon Random Dropdown Selection, use function : **amazon_homepage(driver, logging)** 

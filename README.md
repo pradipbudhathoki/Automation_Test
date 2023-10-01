@@ -5,7 +5,7 @@ This repository contains automated test scripts for two different functionalitie
 1. Amazon Random Dropdown Selection
 2. Gmail Login Functionality
 
-## Random Dropdown Selection
+## Amazon Random Dropdown Selection & Gmail Login Functionality
 
 ### Overview
 
